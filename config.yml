@@ -1,6 +1,6 @@
 baseURL: 'https://stratagem360ai.github.io/AIGenesis/'
 languageCode: 'en-us'
-title: 'My New Hugo Site'
+title: 'AI Genesis Blogs'
 theme: ["PaperMod"]
 params:
   homeInfoParams:
