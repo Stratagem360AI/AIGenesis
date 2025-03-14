@@ -1,0 +1,95 @@
+baseURL: 'https://stratagem360ai.github.io/AIGenesis/'
+languageCode: 'en-us'
+title: 'My New Hugo Site'
+theme: ["PaperMod"]
+params:
+  homeInfoParams:
+    Title: Hi there wave
+    Content: Can be Info, links, about...
+
+  socialIcons: # optional
+    - name: "<platform>"
+      url: "<link>"
+    - name: "<platform 2>"
+      url: "<link2>"
+params:
+  profileMode:
+    enabled: true
+    title: "<Title>" # optional default will be site title
+    subtitle: "This is subtitle"
+    imageUrl: "<image link>" # optional
+    imageTitle: "<title of image as alt>" # optional
+    imageWidth: 120 # custom size
+    imageHeight: 120 # custom size
+    buttons:
+      - name: Archive
+        url: "/archive"
+      - name: Github
+        url: "https://github.com/"
+
+  socialIcons: # optional
+    - name: "<platform>"
+      url: "<link>"
+    - name: "<platform 2>"
+      url: "<link2>"
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
+params:
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    # limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
+cover:
+  image: "<image path/url>"
+  # can also paste direct link from external site
+  # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png
+  alt: "<alt text>"
+  caption: "<text>"
+  relative: false # To use relative path for cover image, used in hugo Page-bundles
+params:
+  cover:
+    responsiveImages: false
+params:
+  cover:
+    linkFullImages: true
+params:
+  ShowShareButtons: true
+Params:
+  ShowReadingTime: true
+ShowToc: true
+TocOpen: true
+params:
+  ShowBreadCrumbs: true
+---
+ShowBreadCrumbs: false
+---
+Params:
+  editPost:
+    URL: "https://github.com/<path_to_repo>/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+---
+editPost:
+  URL: "https://github.com/<path_to_repo>/content"
+  Text: "Suggest Changes" # edit text
+  appendFilePath: true # to append file path to Edit link
+---
+params:
+  ShowPostNavLinks: true
+params:
+  ShowCodeCopyButtons: true
+---
+author: ["Me", "You"]
+---
+params:
+  author: ["Me", "You"]
+params:
+  comments: true
