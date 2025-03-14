@@ -2,3 +2,22 @@ baseURL = 'https://stratagem360ai.github.io/AIGenesis/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = ["PaperMod"]
+
+[params]
+  [homeInfoParams]
+    Title =  "Hi there wave"
+    Content =  "Can be Info, links, about..."
+
+[params]
+  [profileMode]
+    enabled = true
+    subtitle = "This is subtitle"
+    imageUrl = "<image link>" # optional
+    imageTitle = "<title of image as alt>" # optional
+    imageWidth = 120 # custom size
+    imageHeight = 120 # custom size
+    [buttons]
+      name = Archive
+      url = "/archive"
+      name = Github
+      url = "https://github.com/"
