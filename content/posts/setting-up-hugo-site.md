@@ -1,12 +1,14 @@
 +++
 date = '2025-03-14T14:23:10-04:00'
 draft = false
-title = 'Setting_up_hugo_site'
+title = 'Setting up Hugo site with PaperMod Theme'
 +++
 
 ## Setting up Hugo Site with PaperMod theme 
 
-### Hugo Site Generate is quick, performant and easier to manage and maintain. I was able to setup everything in no time. I hope this will also help you
+### Hugo Site Generate is quick, performant and easier to manage and maintain. 
+### I was able to setup everything in no time. 
+### I hope this will also help you
 
 **Reference Link:**
 https://gohugo.io/getting-started/quick-start/
