@@ -2,36 +2,57 @@ baseURL: 'https://stratagem360ai.github.io/AIGenesis/'
 languageCode: 'en-us'
 title: 'AI Genesis Blogs>_ '
 theme: ["PaperMod"]
+sectionPagesMenu: main
+tags: [
+  "responsive",
+  "simple",
+  "clean",
+  "light",
+  "dark",
+  "blog",
+  "minimalist",
+  "highlight.js",
+  "search"
+]
+features: [
+  "responsive",
+  "single-column",
+  "blog",
+  "cover-image",
+  "table-of-contents",
+  "opengraph",
+  "highlight.js",
+  "favicon",
+  "archive",
+  "share-icons",
+  "cover",
+  "multilingual",
+  "social-icons",
+  "minified-assets",
+  "theme-toggle",
+  "menu-location-indicator",
+  "scroll-to-top",
+  "search"
+]
 params:
   homeInfoParams:
     Title: Hi there wave
     Content: Can be Info, links, about...
 
   socialIcons: # optional
-    - name: "<platform>"
-      url: "<link>"
-    - name: "<platform 2>"
-      url: "<link2>"
+    - name: "twitter"
+      url: "https://x.com/d_suhas"
+    - name: "substack"
+      url: "https://stratagem360.substack.com"
 params:
   profileMode:
     enabled: true
-    title: "<Title>" # optional default will be site title
-    subtitle: "This is subtitle"
-    imageUrl: "<image link>" # optional
-    imageTitle: "<title of image as alt>" # optional
-    imageWidth: 120 # custom size
-    imageHeight: 120 # custom size
     buttons:
-      - name: Archive
-        url: "/archive"
+      - name: Archives
+        url: "/archives/"
       - name: Github
-        url: "https://github.com/"
+        url: "https://stratagem360ai.github.io/AIGenesis/archives"
 
-  socialIcons: # optional
-    - name: "<platform>"
-      url: "<link>"
-    - name: "<platform 2>"
-      url: "<link2>"
 outputs:
   home:
     - HTML
@@ -48,11 +69,6 @@ params:
     # limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
     keys: ["title", "permalink", "summary", "content"]
 cover:
-  image: "<image path/url>"
-  # can also paste direct link from external site
-  # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png
-  alt: "<alt text>"
-  caption: "<text>"
   relative: false # To use relative path for cover image, used in hugo Page-bundles
 params:
   cover:
@@ -62,34 +78,34 @@ params:
     linkFullImages: true
 params:
   ShowShareButtons: true
-Params:
+params:
   ShowReadingTime: true
-ShowToc: true
-TocOpen: true
+params:
+  ShowToc: true
+params:
+  TocOpen: true
 params:
   ShowBreadCrumbs: true
----
-ShowBreadCrumbs: false
----
-Params:
-  editPost:
-    URL: "https://github.com/<path_to_repo>/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
----
-editPost:
-  URL: "https://github.com/<path_to_repo>/content"
-  Text: "Suggest Changes" # edit text
-  appendFilePath: true # to append file path to Edit link
----
 params:
   ShowPostNavLinks: true
 params:
   ShowCodeCopyButtons: true
----
-author: ["Me", "You"]
----
 params:
   author: ["Me", "You"]
 params:
-  comments: true
+  comments: false
+  menu:
+  main:
+      identifier: about
+      name: about
+      url: "/content/"
+      weight: 10
+      identifier: contact
+      name: contact
+      url: /content/
+      weight: 10
+      identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
+
