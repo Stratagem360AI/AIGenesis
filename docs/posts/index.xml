@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on AI Genesis Blogs>_</title><link>https://stratagem360ai.github.io/AIGenesis/posts/</link><description>Recent content in Posts on AI Genesis Blogs>_</description><generator>Hugo -- 0.145.0</generator><language>en-us</language><lastBuildDate>Fri, 14 Mar 2025 14:23:10 -0400</lastBuildDate><atom:link href="https://stratagem360ai.github.io/AIGenesis/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Setting_up_hugo_site</title><link>https://stratagem360ai.github.io/AIGenesis/posts/setting_up_hugo_site/</link><pubDate>Fri, 14 Mar 2025 14:23:10 -0400</pubDate><guid>https://stratagem360ai.github.io/AIGenesis/posts/setting_up_hugo_site/</guid><description>&lt;h2 id="setting-up-hugo-site-with-papermod-theme">Setting up Hugo Site with PaperMod theme&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on AI Genesis Blogs>_</title><link>https://stratagem360ai.github.io/AIGenesis/posts/</link><description>Recent content in Posts on AI Genesis Blogs>_</description><generator>Hugo -- 0.145.0</generator><language>en-us</language><lastBuildDate>Fri, 14 Mar 2025 14:23:10 -0400</lastBuildDate><atom:link href="https://stratagem360ai.github.io/AIGenesis/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Setting_up_hugo_site</title><link>https://stratagem360ai.github.io/AIGenesis/posts/setting-up-hugo-site/</link><pubDate>Fri, 14 Mar 2025 14:23:10 -0400</pubDate><guid>https://stratagem360ai.github.io/AIGenesis/posts/setting-up-hugo-site/</guid><description>&lt;h2 id="setting-up-hugo-site-with-papermod-theme">Setting up Hugo Site with PaperMod theme&lt;/h2>
+&lt;h3 id="hugo-site-generate-is-quick-performant-and-easier-to-manage-and-maintain-i-was-able-to-setup-everything-in-no-time-i-hope-this-will-also-help-you">Hugo Site Generate is quick, performant and easier to manage and maintain. I was able to setup everything in no time. I hope this will also help you&lt;/h3>
 &lt;p>&lt;strong>Reference Link:&lt;/strong>
 &lt;a href="https://gohugo.io/getting-started/quick-start/">https://gohugo.io/getting-started/quick-start/&lt;/a>
 &lt;a href="https://www.youtube.com/watch?v=6BLFYo1wc0Q&amp;amp;t=133s">https://www.youtube.com/watch?v=6BLFYo1wc0Q&amp;amp;t=133s&lt;/a>
@@ -18,25 +19,7 @@ My Code: &lt;a href="https://github.com/Stratagem360AI/AIGenesis.git">https://gi
 &lt;/ul>
 &lt;blockquote>
 &lt;p>brew install hugo
-- Note: if you do not have brew package. Link: &lt;a href="https://brew.sh">https://brew.sh&lt;/a> (install this first and then above command)&lt;/p>&lt;/blockquote>
-&lt;ul>
-&lt;li>Install Git
-&lt;ul>
-&lt;li>Link: &lt;a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">https://git-scm.com/book/en/v2/Getting-Started-Installing-Git&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;p>&lt;em>&lt;strong>Site Creation&lt;/strong>&lt;/em>&lt;/p>
-&lt;ul>
-&lt;li>Create a new site&lt;/li>
-&lt;/ul>
-&lt;blockquote>
-&lt;p>hugo new site quickstart
-cd quickstart
-git init
-git submodule add &lt;a href="https://github.com/theNewDynamic/gohugo-theme-ananke.git">https://github.com/theNewDynamic/gohugo-theme-ananke.git&lt;/a> themes/ananke
-echo &amp;ldquo;theme = &amp;lsquo;ananke&amp;rsquo;&amp;rdquo; &amp;raquo; hugo.toml
-hugo server&lt;/p></description></item><item><title>My First Post</title><link>https://stratagem360ai.github.io/AIGenesis/posts/my-first-post/</link><pubDate>Thu, 13 Mar 2025 22:26:40 -0400</pubDate><guid>https://stratagem360ai.github.io/AIGenesis/posts/my-first-post/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
+- Note: if you do not have brew package. Link: &lt;a href="https://brew.sh">https://brew.sh&lt;/a> (install this first and then above command)&lt;/p></description></item><item><title>My First Post</title><link>https://stratagem360ai.github.io/AIGenesis/posts/my-first-post/</link><pubDate>Thu, 13 Mar 2025 22:26:40 -0400</pubDate><guid>https://stratagem360ai.github.io/AIGenesis/posts/my-first-post/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
 &lt;h3 id="this-is-suhas-and-i-am-from-the-planet-earth">This is &lt;strong>Suhas&lt;/strong> and I am from the planet &lt;em>Earth&lt;/em>&lt;/h3>
 &lt;h3 id="one-day-we-will-be-multi-planetarians-and-this-will-be-added-to-our-identity">One Day we will be multi-planetarians and this will be added to our identity.&lt;/h3>
 &lt;h3 id="cheers">Cheers!&lt;/h3></description></item></channel></rss>

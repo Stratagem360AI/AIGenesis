@@ -6,6 +6,8 @@ title = 'Setting_up_hugo_site'
 
 ## Setting up Hugo Site with PaperMod theme 
 
+### Hugo Site Generate is quick, performant and easier to manage and maintain. I was able to setup everything in no time. I hope this will also help you
+
 **Reference Link:**
 https://gohugo.io/getting-started/quick-start/
 https://www.youtube.com/watch?v=6BLFYo1wc0Q&t=133s
